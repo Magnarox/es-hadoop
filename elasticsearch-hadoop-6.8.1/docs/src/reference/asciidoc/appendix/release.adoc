@@ -1,0 +1,133 @@
+[[release-notes]]
+= Release Notes
+
+[partintro]
+--
+This section summarizes the changes in each release.
+
+[float]
+[[release-notes-6]]
+===== 6.x
+* <<eshadoop-6.8.1>>
+* <<eshadoop-6.8.0>>
+* <<eshadoop-6.7.1>>
+* <<eshadoop-6.7.0>>
+* <<eshadoop-6.6.2>>
+* <<eshadoop-6.6.1>>
+* <<eshadoop-6.6.0>>
+* <<eshadoop-6.5.4>>
+* <<eshadoop-6.5.3>>
+* <<eshadoop-6.5.2>>
+* <<eshadoop-6.5.1>>
+* <<eshadoop-6.5.0>>
+* <<eshadoop-6.4.3>>
+* <<eshadoop-6.4.2>>
+* <<eshadoop-6.4.1>>
+* <<eshadoop-6.4.0>>
+* <<eshadoop-6.3.2>>
+* <<eshadoop-6.3.1>>
+* <<eshadoop-6.3.0>>
+* <<eshadoop-6.2.4>>
+* <<eshadoop-6.2.3>>
+* <<eshadoop-6.2.2>>
+* <<eshadoop-6.2.1>>
+* <<eshadoop-6.2.0>>
+* <<eshadoop-6.1.4>>
+* <<eshadoop-6.1.3>>
+* <<eshadoop-6.1.2>>
+* <<eshadoop-6.1.1>>
+* <<eshadoop-6.1.0>>
+* <<eshadoop-6.0.1>>
+* <<eshadoop-6.0.0>>
+* <<eshadoop-6.0.0-rc-2>>
+* <<eshadoop-6.0.0-rc-1>>
+* <<eshadoop-6.0.0-beta-2>>
+* <<eshadoop-6.0.0-beta-1>>
+* <<eshadoop-6.0.0-alpha-2>>
+* <<eshadoop-6.0.0-alpha-1>>
+--
+
+////////////////////////
+// Template
+[[eshadoop-5.3.1]]
+== Elasticsearch for Apache Hadoop version 5.3.1
+Month 00, 2017
+
+[[deprecation-5.3.1]]
+=== Deprecations
+* Summary
+http://github.com/elastic/elasticsearch-hadoop/issues/XXX[#XXX]
+
+[[breaking-5.3.1]]
+=== Breaking Changes
+* Summary
+http://github.com/elastic/elasticsearch-hadoop/issues/XXX[#XXX]
+
+[[new-5.3.1]]
+=== New Features
+Section::
+* Summary
+http://github.com/elastic/elasticsearch-hadoop/issues/XXX[#XXX]
+
+[[enhancements-5.3.1]]
+=== Enhancements
+Section::
+* Summary
+http://github.com/elastic/elasticsearch-hadoop/issues/XXX[#XXX]
+
+[[bugs-5.3.1]]
+=== Bug Fixes
+Section::
+* Summary
+http://github.com/elastic/elasticsearch-hadoop/issues/XXX[#XXX]
+
+[[docs-5.3.1]]
+=== Documentation
+* Summary
+http://github.com/elastic/elasticsearch-hadoop/issues/XXX[#XXX]
+
+[[nonissue-5.3.1]]
+=== Non-issue
+Section::
+* Summary
+http://github.com/elastic/elasticsearch-hadoop/issues/XXX[#XXX]
+
+////////////////////////
+
+include::release-notes/6.8.1.adoc[]
+include::release-notes/6.8.0.adoc[]
+include::release-notes/6.7.1.adoc[]
+include::release-notes/6.7.0.adoc[]
+include::release-notes/6.6.2.adoc[]
+include::release-notes/6.6.1.adoc[]
+include::release-notes/6.6.0.adoc[]
+include::release-notes/6.5.4.adoc[]
+include::release-notes/6.5.3.adoc[]
+include::release-notes/6.5.2.adoc[]
+include::release-notes/6.5.1.adoc[]
+include::release-notes/6.5.0.adoc[]
+include::release-notes/6.4.3.adoc[]
+include::release-notes/6.4.2.adoc[]
+include::release-notes/6.4.1.adoc[]
+include::release-notes/6.4.0.adoc[]
+include::release-notes/6.3.2.adoc[]
+include::release-notes/6.3.1.adoc[]
+include::release-notes/6.3.0.adoc[]
+include::release-notes/6.2.4.adoc[]
+include::release-notes/6.2.3.adoc[]
+include::release-notes/6.2.2.adoc[]
+include::release-notes/6.2.1.adoc[]
+include::release-notes/6.2.0.adoc[]
+include::release-notes/6.1.4.adoc[]
+include::release-notes/6.1.3.adoc[]
+include::release-notes/6.1.2.adoc[]
+include::release-notes/6.1.1.adoc[]
+include::release-notes/6.1.0.adoc[]
+include::release-notes/6.0.1.adoc[]
+include::release-notes/6.0.0.adoc[]
+include::release-notes/6.0.0-rc-2.adoc[]
+include::release-notes/6.0.0-rc-1.adoc[]
+include::release-notes/6.0.0-beta-2.adoc[]
+include::release-notes/6.0.0-beta-1.adoc[]
+include::release-notes/6.0.0-alpha-2.adoc[]
+include::release-notes/6.0.0-alpha-1.adoc[]
