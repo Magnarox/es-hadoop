@@ -24,3 +24,6 @@ hs_err_pid*
 
 # Keep elasticsearch-hadoop-6.8.1
 !elasticsearch-hadoop-6.8.1/**
+
+out/**
+!out/.gitkeep

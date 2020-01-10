@@ -11,6 +11,5 @@ COPY elasticsearch-hadoop-6.8.1 /workdir/elasticsearch-hadoop-6.8.1
 
 RUN mkdir /workdir/elasticsearch-hadoop-6.8.1/build
 
-
-
+RUN chmod -R 755 /workdir/elasticsearch-hadoop-6.8.1
 
