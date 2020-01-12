@@ -19,7 +19,7 @@
 
 package org.elasticsearch.hadoop.rest.commonshttp.auth;
 
-import org.apache.commons.httpclient.auth.AuthPolicy;
+import org.apache.commons.httpclient.fix.auth.AuthPolicy;
 import org.elasticsearch.hadoop.rest.commonshttp.auth.bearer.EsApiKeyAuthScheme;
 import org.elasticsearch.hadoop.rest.commonshttp.auth.spnego.SpnegoAuthScheme;
 

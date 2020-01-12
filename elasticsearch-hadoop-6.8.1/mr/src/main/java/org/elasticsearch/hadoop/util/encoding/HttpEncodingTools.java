@@ -1,7 +1,7 @@
 package org.elasticsearch.hadoop.util.encoding;
 
-import org.apache.commons.httpclient.URIException;
-import org.apache.commons.httpclient.util.URIUtil;
+import org.apache.commons.httpclient.fix.URIException;
+import org.apache.commons.httpclient.fix.util.URIUtil;
 import org.elasticsearch.hadoop.EsHadoopIllegalArgumentException;
 import org.elasticsearch.hadoop.util.StringUtils;
 

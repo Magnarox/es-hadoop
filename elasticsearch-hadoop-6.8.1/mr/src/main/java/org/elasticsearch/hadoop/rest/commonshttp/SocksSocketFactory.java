@@ -28,9 +28,9 @@ import java.net.Socket;
 import java.net.SocketAddress;
 import java.net.UnknownHostException;
 
-import org.apache.commons.httpclient.ConnectTimeoutException;
-import org.apache.commons.httpclient.params.HttpConnectionParams;
-import org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory;
+import org.apache.commons.httpclient.fix.ConnectTimeoutException;
+import org.apache.commons.httpclient.fix.params.HttpConnectionParams;
+import org.apache.commons.httpclient.fix.protocol.DefaultProtocolSocketFactory;
 import org.elasticsearch.hadoop.util.StringUtils;
 
 class SocksSocketFactory extends DefaultProtocolSocketFactory {

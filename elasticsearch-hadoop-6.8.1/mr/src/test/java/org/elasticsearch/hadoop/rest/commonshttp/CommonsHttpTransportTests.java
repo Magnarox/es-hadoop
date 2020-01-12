@@ -26,10 +26,10 @@ import java.net.UnknownHostException;
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.SSLSocketFactory;
 
-import org.apache.commons.httpclient.ConnectTimeoutException;
-import org.apache.commons.httpclient.params.HttpConnectionParams;
-import org.apache.commons.httpclient.protocol.Protocol;
-import org.apache.commons.httpclient.protocol.ProtocolSocketFactory;
+import org.apache.commons.httpclient.fix.ConnectTimeoutException;
+import org.apache.commons.httpclient.fix.params.HttpConnectionParams;
+import org.apache.commons.httpclient.fix.protocol.Protocol;
+import org.apache.commons.httpclient.fix.protocol.ProtocolSocketFactory;
 import org.elasticsearch.hadoop.cfg.ConfigurationOptions;
 import org.elasticsearch.hadoop.cfg.Settings;
 import org.elasticsearch.hadoop.rest.Request;
@@ -37,7 +37,6 @@ import org.elasticsearch.hadoop.rest.SimpleRequest;
 import org.elasticsearch.hadoop.util.TestSettings;
 import org.hamcrest.Matchers;
 import org.junit.After;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 

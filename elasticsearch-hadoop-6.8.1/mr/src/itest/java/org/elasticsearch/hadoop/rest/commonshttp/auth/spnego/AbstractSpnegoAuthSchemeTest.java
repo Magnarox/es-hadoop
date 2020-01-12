@@ -30,16 +30,16 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import org.apache.commons.httpclient.Credentials;
-import org.apache.commons.httpclient.Header;
-import org.apache.commons.httpclient.HttpMethodBase;
-import org.apache.commons.httpclient.auth.AuthChallengeParser;
-import org.apache.commons.httpclient.auth.AuthChallengeProcessor;
-import org.apache.commons.httpclient.auth.AuthPolicy;
-import org.apache.commons.httpclient.auth.AuthScheme;
-import org.apache.commons.httpclient.auth.AuthState;
-import org.apache.commons.httpclient.params.HttpClientParams;
-import org.apache.commons.httpclient.params.HttpParams;
+import org.apache.commons.httpclient.fix.Credentials;
+import org.apache.commons.httpclient.fix.Header;
+import org.apache.commons.httpclient.fix.HttpMethodBase;
+import org.apache.commons.httpclient.fix.auth.AuthChallengeParser;
+import org.apache.commons.httpclient.fix.auth.AuthChallengeProcessor;
+import org.apache.commons.httpclient.fix.auth.AuthPolicy;
+import org.apache.commons.httpclient.fix.auth.AuthScheme;
+import org.apache.commons.httpclient.fix.auth.AuthState;
+import org.apache.commons.httpclient.fix.params.HttpClientParams;
+import org.apache.commons.httpclient.fix.params.HttpParams;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.security.SecurityUtil;
 import org.apache.hadoop.security.UserGroupInformation;
@@ -158,7 +158,7 @@ public class AbstractSpnegoAuthSchemeTest {
 
                 TestMethod method = new TestMethod();
                 method.setHeaders(new Header[]{new Header("WWW-Authenticate", "Negotiate")});
-                method.setURI(new org.apache.commons.httpclient.URI("http", null, "es.build.elastic.co", 9200));
+                method.setURI(new org.apache.commons.httpclient.fix.URI("http", null, "es.build.elastic.co", 9200));
 
                 Credentials credentials = new SpnegoCredentials(HadoopUserProvider.create(new TestSettings()), "HTTP/_HOST@BUILD.ELASTIC.CO");
 
@@ -227,7 +227,7 @@ public class AbstractSpnegoAuthSchemeTest {
 
                 TestMethod method = new TestMethod();
                 method.setHeaders(new Header[]{new Header("WWW-Authenticate", "Negotiate")});
-                method.setURI(new org.apache.commons.httpclient.URI("http", null, "127.0.0.1", 9200));
+                method.setURI(new org.apache.commons.httpclient.fix.URI("http", null, "127.0.0.1", 9200));
 
                 Credentials credentials = new SpnegoCredentials(HadoopUserProvider.create(new TestSettings()), "HTTP/_HOST@BUILD.ELASTIC.CO");
 

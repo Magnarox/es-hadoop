@@ -18,20 +18,20 @@
  */
 package org.elasticsearch.hadoop.rest.commonshttp;
 
-import org.apache.commons.httpclient.*;
-import org.apache.commons.httpclient.HttpStatus;
-import org.apache.commons.httpclient.auth.AuthChallengeParser;
-import org.apache.commons.httpclient.auth.AuthPolicy;
-import org.apache.commons.httpclient.auth.AuthScheme;
-import org.apache.commons.httpclient.auth.AuthScope;
-import org.apache.commons.httpclient.auth.AuthState;
-import org.apache.commons.httpclient.methods.*;
-import org.apache.commons.httpclient.params.HttpClientParams;
-import org.apache.commons.httpclient.params.HttpConnectionManagerParams;
-import org.apache.commons.httpclient.params.HttpMethodParams;
-import org.apache.commons.httpclient.protocol.Protocol;
-import org.apache.commons.httpclient.protocol.ProtocolSocketFactory;
-import org.apache.commons.httpclient.protocol.SecureProtocolSocketFactory;
+import org.apache.commons.httpclient.fix.*;
+import org.apache.commons.httpclient.fix.auth.AuthChallengeParser;
+import org.apache.commons.httpclient.fix.auth.AuthPolicy;
+import org.apache.commons.httpclient.fix.HttpStatus;
+import org.apache.commons.httpclient.fix.auth.AuthScheme;
+import org.apache.commons.httpclient.fix.auth.AuthScope;
+import org.apache.commons.httpclient.fix.auth.AuthState;
+import org.apache.commons.httpclient.fix.methods.*;
+import org.apache.commons.httpclient.fix.params.HttpClientParams;
+import org.apache.commons.httpclient.fix.params.HttpConnectionManagerParams;
+import org.apache.commons.httpclient.fix.params.HttpMethodParams;
+import org.apache.commons.httpclient.fix.protocol.Protocol;
+import org.apache.commons.httpclient.fix.protocol.ProtocolSocketFactory;
+import org.apache.commons.httpclient.fix.protocol.SecureProtocolSocketFactory;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.elasticsearch.hadoop.EsHadoopIllegalArgumentException;

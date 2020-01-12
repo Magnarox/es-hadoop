@@ -27,12 +27,12 @@ import java.net.UnknownHostException;
 
 import javax.security.auth.kerberos.KerberosPrincipal;
 
-import org.apache.commons.httpclient.Credentials;
-import org.apache.commons.httpclient.HttpMethod;
-import org.apache.commons.httpclient.URIException;
-import org.apache.commons.httpclient.auth.AuthScheme;
-import org.apache.commons.httpclient.auth.AuthenticationException;
-import org.apache.commons.httpclient.auth.MalformedChallengeException;
+import org.apache.commons.httpclient.fix.Credentials;
+import org.apache.commons.httpclient.fix.HttpMethod;
+import org.apache.commons.httpclient.fix.URIException;
+import org.apache.commons.httpclient.fix.auth.AuthScheme;
+import org.apache.commons.httpclient.fix.auth.AuthenticationException;
+import org.apache.commons.httpclient.fix.auth.MalformedChallengeException;
 import org.elasticsearch.hadoop.EsHadoopIllegalArgumentException;
 import org.elasticsearch.hadoop.rest.commonshttp.auth.EsHadoopAuthPolicies;
 import org.elasticsearch.hadoop.security.User;

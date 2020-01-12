@@ -19,7 +19,7 @@
 
 package org.elasticsearch.hadoop.rest.commonshttp.auth.spnego;
 
-import org.apache.commons.httpclient.Credentials;
+import org.apache.commons.httpclient.fix.Credentials;
 import org.elasticsearch.hadoop.security.UserProvider;
 
 public class SpnegoCredentials implements Credentials {

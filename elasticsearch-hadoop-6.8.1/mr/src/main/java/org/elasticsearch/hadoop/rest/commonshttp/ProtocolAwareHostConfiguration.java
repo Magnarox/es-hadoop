@@ -18,9 +18,9 @@
  */
 package org.elasticsearch.hadoop.rest.commonshttp;
 
-import org.apache.commons.httpclient.HostConfiguration;
-import org.apache.commons.httpclient.HttpHost;
-import org.apache.commons.httpclient.protocol.Protocol;
+import org.apache.commons.httpclient.fix.HostConfiguration;
+import org.apache.commons.httpclient.fix.HttpHost;
+import org.apache.commons.httpclient.fix.protocol.Protocol;
 
 class ProtocolAwareHostConfiguration extends HostConfiguration {
     public ProtocolAwareHostConfiguration(HostConfiguration hostConfiguration) {
